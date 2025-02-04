@@ -1,5 +1,6 @@
-````markdown
+```markdown
 # 1. Distinguish the Terms "Object" and "Class"
+
 
 An **object** is described by its **properties (attributes)** and **methods (behaviors)**.
 A **class** is the **blueprint, template, or structure** that defines objects. It acts as a **fingerprint** that determines how objects are created and behave.
@@ -31,10 +32,8 @@ class Rectangle {
     void draw() { ... }
 }
 ```
-````
 
 ### **First Instance**
-
 ```java
 Rectangle rect1 = new Rectangle();
 rect1.length = 10;
@@ -42,7 +41,6 @@ rect1.width = 10;
 ```
 
 ### **Second Instance**
-
 ```java
 Rectangle rect2 = new Rectangle();
 rect2.length = 9;
@@ -50,7 +48,6 @@ rect2.width = 13;
 ```
 
 ### **Third Instance**
-
 ```java
 Rectangle rect3 = new Rectangle();
 rect3.length = 41;
@@ -60,9 +57,7 @@ rect3.width = 19;
 ---
 
 # 4. Implementing Class and Method Concepts in Non-OOP Languages
-
 ### **C (Using Structs & Functions)**
-
 ```c
 struct Car {
     char type[20];
@@ -80,7 +75,6 @@ void off(struct Car* car) { /* off logic */ }
 ```
 
 ### **Pascal (Using Records & Procedures)**
-
 ```pascal
 type Car = record
     typeCar: string;
@@ -121,16 +115,12 @@ class Car {
 ---
 
 # 6. Distinguishing Between a Client and a Server
-
 - **Server:** Processes requests and sends responses.
 - **Client:** Sends requests and receives responses.
 
 ---
 
 # 7. Client-Server Communication
-
 A client communicates with a server by sending a **request** to the server. The **request** is a call on a **message** of the server.
-
 ```
 
-```
